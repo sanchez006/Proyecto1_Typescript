@@ -1,0 +1,22 @@
+{
+  "name": "proyecto1-typescript",
+  "version": "1.0.0",
+  "description": "Catálogo de biblioteca en TypeScript: tipos, funciones y módulos ejecutables desde la terminal",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "typecheck": "tsc --noEmit",
+    "build": "tsc",
+    "start": "node --enable-source-maps dist/index.js"
+  },
+  "keywords": ["typescript", "catalogo", "biblioteca"],
+  "author": "Juan Carlos Sánchez Delgado",
+  "license": "ISC",
+  "engines": {
+    "node": ">=20"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.4",
+    "typescript": "^7.0.2"
+  }
+}
